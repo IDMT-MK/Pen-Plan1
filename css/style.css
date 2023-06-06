@@ -1,0 +1,131 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+#wrap {
+    max-width: 1000px;
+    margin: 0 auto;
+    position: relative;
+}
+
+header {
+    background: url(images/Pen-Plan.jpg);
+    background-size: 80%;
+    min-height: 30vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    /*background: #222;*/
+    /*padding: 0.5rem 8rem;*/
+    text-align: center;
+    color: #fff;
+    padding: 5rem;
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: xx-large;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+}
+
+ul.main-nav {
+    background: #222;
+    border-width: 0.1rem 0rem 0rem 0rem;
+    border-style: solid;
+    border-color: #fff;
+    justify-content: center;
+    display:flex;
+    z-index: 999;/*最前面へ*/
+    left:0;/*位置指定*/
+    font-family: 'Oswald', sans-serif;
+}
+
+ul.main-nav li {
+    padding: 0.5rem;
+    margin-right: 1rem;
+}
+
+ul.main-nav li a {
+    padding: 0.5rem;
+}
+
+ul.main-nav li a:hover {
+    background-color: #696969;
+}
+
+ul.main-nav a {
+    color: #fff;
+}
+
+h2 {
+    /*padding: 1rem 1rem;*/
+    /*text-align:center;*/
+    margin: 0rem 1rem 0.5rem;
+    padding-top: 4rem;
+    font-family: 'Oswald', sans-serif;
+}
+
+ul.icon{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+h3 {
+    margin: 0rem 1rem 0.5rem;
+    padding-top: 4rem;
+    font-family: 'Oswald', sans-serif;
+    font-family: serif;
+    margin-left: 2rem;
+}
+
+article {
+    padding: 2rem;
+    background: #e7e6f2;
+    margin: 0rem 1rem 3rem;
+    
+}
+
+.grid {
+    display: grid;
+    gap: 26px;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 6%;
+    margin-bottom: 50px;
+}
+
+article p{
+    font-family: 'Zen Maru Gothic', sans-serif;
+}
+
+ul.article li {
+    border-width: 0.1rem;
+    border-style: solid;
+    border-color: #222;
+}
+
+
+
+
+/*div {
+    padding: 2rem;
+    background: #dcc8dc;
+    margin: 0rem 1rem 3rem;
+}*/
+
+footer {
+    background: #222;
+}
+
+footer p {
+    color: #fff;
+    text-align: center;
+}
